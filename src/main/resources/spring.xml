@@ -4,7 +4,13 @@
       xsi:schemaLocation="http://www.springframework.org/schema/beans
                           http://www.springframework.org/schema/beans/spring-beans.xsd">
 
-	<bean id="dev" class="com.example.myapp.Dev" >
+	<bean id="dev1" class="com.example.myapp.Dev" >
+	<constructor-arg index="0" value="34"></constructor-arg>
+	<constructor-arg index="1" ref="lap1"></constructor-arg>	</bean>
+	<bean id="lap1" class="com.example.myapp.Laptop">
 	</bean>
+	<bean id="dev2" class="com.example.myapp.Dev" >
+	</bean>
+	
 	
 </beans>
