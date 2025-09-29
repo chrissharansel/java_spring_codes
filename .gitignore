@@ -1,0 +1,26 @@
+# Maven build output
+/target/
+
+# Eclipse project files
+.classpath
+.project
+.settings/
+
+# Local environment / system files
+*.log
+*.tmp
+*.bak
+*.swp
+*~
+.DS_Store
+Thumbs.db
+
+# VS Code (if ever used alongside)
+.vscode/
+
+# Maven wrapper (optional)
+.mvn/wrapper/maven-wrapper.jar
+
+# Environment files
+.env
+*.env
